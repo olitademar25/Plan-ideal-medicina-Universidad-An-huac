@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.materia {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.bloqueada { background-color: #FBD9E5; }
+.desbloqueada { background-color: #F283AF; }
+.aprobada {
+  background-color: #C43670;
+  text-decoration: line-through;
+  color: white;
+}
+
+.semestre {
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+}
